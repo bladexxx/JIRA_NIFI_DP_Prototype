@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JIRA NiFi Deployment Prototype</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#0052CC',
+              'primary-hover': '#0065FF',
+              'panel': '#FFFFFF',
+              'panel-border': '#DFE1E6',
+              'background': '#F4F5F7',
+              'text-main': '#172B4D',
+              'text-secondary': '#5E6C84',
+              'text-link': '#0052CC',
+              'status-blue': '#DEEBFF',
+              'status-blue-text': '#0052CC',
+              'status-green': '#E3FCEF',
+              'status-green-text': '#006644',
+              'status-yellow': '#FFF0B3',
+              'status-yellow-text': '#172B4D',
+              'status-red': '#FFEBE6',
+              'status-red-text': '#BF2600',
+              'status-gray': '#EBECF0',
+              'status-gray-text': '#42526E',
+              'status-purple': '#EAE6FF',
+              'status-purple-text': '#403294',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-background text-text-main">
+    <div id="root"></div>
+  </body>
+</html>

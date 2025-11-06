@@ -1,0 +1,5 @@
+{
+  "name": "JIRA NiFi Deployment Prototype",
+  "description": "A prototype application simulating a JIRA-based workflow for managing NiFi Deployment Plans (DPs) and Deployment Objects (DOs). It showcases the master-child relationship between DPs and their atomic DOs, complete with status workflows and simulated deployment actions.",
+  "requestFramePermissions": []
+}
